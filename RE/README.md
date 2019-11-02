@@ -7,3 +7,9 @@ You will be given a bunch of executables. You'll need to get the flag by tearing
 **Topics**: Systems, Algorithms, Assembly Programming
 
 * [Resources page](https://github.com/WebClub-NITK/CTF-League/wiki/RE-pwn-Resources)
+
+## 0. Introductory session
+
+1. [Slides](https://github.com/WebClub-NITK/CTF-League/blob/master/RE/intro-session/re-pwn_slides.pdf)
+2. [crackme1 write-up](https://github.com/WebClub-NITK/CTF-League/blob/master/RE/intro-session/crackme1_writeup.md)
+3. [crackme2 write-up](https://github.com/WebClub-NITK/CTF-League/blob/master/RE/intro-session/crackme2_writeup.md)
