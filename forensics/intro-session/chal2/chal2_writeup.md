@@ -29,7 +29,7 @@ Let us take 2 examples to understand it better.
 #### a. PNG: Portable Network Graphics
 
 [PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics) is a file format for images. It was designed mainly to transfer images on the internet. Let us take 
-![index.png](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/index.png "index.png").
+[index.png] : https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/index.png "index.png"
 
 Let us inspect this file using the **file** command.
 ```
@@ -39,7 +39,7 @@ index.png: PNG image data, 300 x 150, 8-bit colormap, non-interlaced
 
 The following is how it looks when index.png is opened using vim.
 
-![png-file.png](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/png-file.png "png-file.png")
+[png-file.png] : https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/png-file.png "png-file.png"
 
 It is a **binary** file format.
 
@@ -59,7 +59,7 @@ adwi@adwi:~/my_repos/CTF-League/forensics/intro-session/chal2: sudo apt-get inst
 
 This is how it looks like when you open a file with that hexeditor.
 
-![hexeditor-index.png](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/hexeditor-index.png "hexeditor-index.png"). Observe the first 8 bytes.
+[hexeditor-index.png] : https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/hexeditor-index.png "hexeditor-index.png". Observe the first 8 bytes.
 
 ### 1. Now, to the challenge
 
