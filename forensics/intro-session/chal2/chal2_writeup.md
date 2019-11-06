@@ -2,7 +2,7 @@
 
 ## Problem
 
-* The executable [code1](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/code1) has some problem and you are getting an error if you try running it. Can you fix the executable and capture the flag?
+The executable [code1](./code1) has some problem and you are getting an error if you try running it. Can you fix the executable and capture the flag?
 
 ## Solution
 
@@ -29,7 +29,8 @@ Let us take 2 examples to understand it better.
 #### a. PNG: Portable Network Graphics
 
 [PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics) is a file format for images. It was designed mainly to transfer images on the internet. Let us take 
-[index.png] : https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/index.png "index.png"
+
+![alt picture](./index.png)
 
 Let us inspect this file using the **file** command.
 ```
@@ -39,7 +40,7 @@ index.png: PNG image data, 300 x 150, 8-bit colormap, non-interlaced
 
 The following is how it looks when index.png is opened using vim.
 
-[png-file.png] : https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/png-file.png "png-file.png"
+![png-file.png](./png-file.png)
 
 It is a **binary** file format.
 
@@ -59,7 +60,9 @@ adwi@adwi:~/my_repos/CTF-League/forensics/intro-session/chal2: sudo apt-get inst
 
 This is how it looks like when you open a file with that hexeditor.
 
-[hexeditor-index.png] : https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/hexeditor-index.png "hexeditor-index.png". Observe the first 8 bytes.
+![hexeditor-index.png](./hexeditor-index.png)
+
+Observe the first 8 bytes.
 
 ### 1. Now, to the challenge
 
@@ -106,11 +109,11 @@ Let us look at the ELF file's signature (refer to wikipedia's list of signatures
 
 Now, let us open up **code1** with hexeditor.
 
-![code1-hexeditor.png](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/code1-hexeditor.png "code1-hexeditor.png")
+![code1-hexeditor.png](./code1-hexeditor.png)
 
 The first 4 bytes here are **7F 62 4C 46**. But, it should be **7F 45 4C 46**. So, the second byte should be changed from **b** to **E** (or **0x62** to **0x45**). Let us change it and save it.
 
-![code1-hexeditor-corrected.png](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/code1-hexeditor-corrected.png "code1-hexeditor-corrected.png")
+![code1-hexeditor-corrected.png](./code1-hexeditor-corrected.png)
 
 Now, let us use **file** command on **code1** again.
 ```
