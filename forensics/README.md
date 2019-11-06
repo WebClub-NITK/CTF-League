@@ -10,5 +10,5 @@ Here, we are talking about digital forensics. There might be challenges where yo
 
 ## 0. Introductory session
 
-1. [chal1 write-up](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal1/chal1_writeup.md)
-2. [chal2 write-up](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2/chal2_writeup.md)
+1. [chal1 write-up](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal1)
+2. [chal2 write-up](https://github.com/WebClub-NITK/CTF-League/tree/master/forensics/intro-session/chal2)
