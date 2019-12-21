@@ -1,0 +1,16 @@
+we need to find out where our friend is planning to keep the christmas party so 
+we all a little group of hackers try to use our skills and find out without asking him 
+and then give him a surprise.
+for now we know that he is booking train tickets and most likely
+from the usual site indianrail.gov.in so captured his network traffic as we also are connected 
+to the same wifi network to which he is.
+can you help us find out where he is going and by which train?
+
+
+resources
+
+https://www.domain.com/blog/2018/12/20/what-is-an-ip-address/
+https://www.howtogeek.com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/
+https://wiki.wireshark.org/Hyper_Text_Transfer_Protocol
+https://medium.com/devops-world/http-https-analysis-using-wireshark-cbe07c23520
+https://osqa-ask.wireshark.org/questions/4710/how-do-i-search-a-capture-for-a-string
